@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".UI.EditActivity">
+
+    <EditText
+        android:id="@+id/edit_nim"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="NIM"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <EditText
+        android:id="@+id/edit_nama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Nama Lengkap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_nim"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        />
+    <EditText
+        android:id="@+id/edit_prodi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Prodi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_nama"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        />
+    <EditText
+        android:id="@+id/edit_alamat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_prodi"
+        android:layout_marginTop="10dp"
+        android:gravity="top"
+        />
+    <Button
+        android:id="@+id/button_save"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="SIMPAN"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_alamat"
+        android:layout_marginTop="20dp"
+        />
+    <Button
+        android:id="@+id/button_update"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_save"
+        android:layout_marginTop="20dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
