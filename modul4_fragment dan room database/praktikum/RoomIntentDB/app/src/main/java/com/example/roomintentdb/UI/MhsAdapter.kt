@@ -12,6 +12,7 @@ class MhsAdapter( private val mahasiswa: ArrayList<Mhs>, private val listener: O
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MhsViewHolder {
         return MhsViewHolder(
+//            AdapterMainBinding.inflate(LayoutInflater.from(parent.context), parent, false)
             LayoutInflater.from(parent.context).inflate(R.layout.adapter_main, parent, false)
         )
     }
