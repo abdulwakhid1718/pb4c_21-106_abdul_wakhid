@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:title="Group Baru" />
+    <item
+        android:id="@+id/menu_item2"
+        android:title="Siaran Baru" />
+    <item
+        android:id="@+id/menu_item3"
+        android:title="Perangkat tertaut" />
+    <item
+        android:id="@+id/menu_item4"
+        android:title="Pesan berbintang" />
+    <item
+        android:id="@+id/menu_item5"
+        android:title="Setelan" />
+
+</menu>
